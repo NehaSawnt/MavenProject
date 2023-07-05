@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Waiting for1000millisec.]]>
+    </line>
+    <line>
+      <![CDATA[Launching browser]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for2000millisec.]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on HomePageSignInButton ]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for2000millisec.]]>
+    </line>
+    <line>
+      <![CDATA[Reading data from excel0and cell num0]]>
+    </line>
+    <line>
+      <![CDATA[Entering Mobile No.]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for2000millisec.]]>
+    </line>
+    <line>
+      <![CDATA[Signing in with PW]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for2000millisec.]]>
+    </line>
+    <line>
+      <![CDATA[Reading data from excel0and cell num1]]>
+    </line>
+    <line>
+      <![CDATA[Entering Password]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for2000millisec.]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on sign In PW]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for2000millisec.]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on My Account button]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for3000millisec.]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on my profile]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for2000millisec.]]>
+    </line>
+    <line>
+      <![CDATA[Switching on profile page]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for1000millisec.]]>
+    </line>
+    <line>
+      <![CDATA[Test validateUserName execution starting]]>
+    </line>
+    <line>
+      <![CDATA[Reading data from excel0and cell num2]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for1000millisec.]]>
+    </line>
+    <line>
+      <![CDATA[Getting actual username]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for4000millisec.]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot is stored in location :C:\Users\Narayan\eclipse-workspace\MavenProject\Screenshot\validateUserName.png]]>
+    </line>
+    <line>
+      <![CDATA[This validateUserName method is failed ,Plz try again]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for2000millisec.]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on logout]]>
+    </line>
+    <line>
+      <![CDATA[Closing browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-07-05T11:23:53 IST" name="Suite" finished-at="2023-07-05T11:25:20 IST" duration-ms="87055">
+    <groups>
+    </groups>
+    <test started-at="2023-07-05T11:23:53 IST" name="Test" finished-at="2023-07-05T11:25:20 IST" duration-ms="87055">
+      <class name="test.ValidatePolicyUserName">
+        <test-method is-config="true" signature="launchPolicyBazaar()[pri:0, instance:test.ValidatePolicyUserName@7b36aa0c]" started-at="2023-07-05T11:23:53 IST" name="launchPolicyBazaar" finished-at="2023-07-05T11:24:34 IST" duration-ms="40645" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Waiting for1000millisec.]]>
+            </line>
+            <line>
+              <![CDATA[Launching browser]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for2000millisec.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchPolicyBazaar -->
+        <test-method is-config="true" signature="signInPolicyBazaar()[pri:0, instance:test.ValidatePolicyUserName@7b36aa0c]" started-at="2023-07-05T11:24:34 IST" name="signInPolicyBazaar" finished-at="2023-07-05T11:25:07 IST" duration-ms="32826" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on HomePageSignInButton ]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for2000millisec.]]>
+            </line>
+            <line>
+              <![CDATA[Reading data from excel0and cell num0]]>
+            </line>
+            <line>
+              <![CDATA[Entering Mobile No.]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for2000millisec.]]>
+            </line>
+            <line>
+              <![CDATA[Signing in with PW]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for2000millisec.]]>
+            </line>
+            <line>
+              <![CDATA[Reading data from excel0and cell num1]]>
+            </line>
+            <line>
+              <![CDATA[Entering Password]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for2000millisec.]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on sign In PW]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for2000millisec.]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on My Account button]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for3000millisec.]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on my profile]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for2000millisec.]]>
+            </line>
+            <line>
+              <![CDATA[Switching on profile page]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for1000millisec.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signInPolicyBazaar -->
+        <test-method signature="validateUserName()[pri:0, instance:test.ValidatePolicyUserName@7b36aa0c]" started-at="2023-07-05T11:25:07 IST" name="validateUserName" finished-at="2023-07-05T11:25:15 IST" duration-ms="7945" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Both are matching Tc is failed expected [Neha Narayan Sawant] but found [Neha Narayan ]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Both are matching Tc is failed expected [Neha Narayan Sawant] but found [Neha Narayan ]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at test.ValidatePolicyUserName.validateUserName(ValidatePolicyUserName.java:85)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test validateUserName execution starting]]>
+            </line>
+            <line>
+              <![CDATA[Reading data from excel0and cell num2]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for1000millisec.]]>
+            </line>
+            <line>
+              <![CDATA[Getting actual username]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for4000millisec.]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot is stored in location :C:\Users\Narayan\eclipse-workspace\MavenProject\Screenshot\validateUserName.png]]>
+            </line>
+            <line>
+              <![CDATA[This validateUserName method is failed ,Plz try again]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateUserName -->
+        <test-method is-config="true" signature="logOutFromPolicyBazaar()[pri:0, instance:test.ValidatePolicyUserName@7b36aa0c]" started-at="2023-07-05T11:25:15 IST" name="logOutFromPolicyBazaar" finished-at="2023-07-05T11:25:18 IST" duration-ms="2501" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Waiting for2000millisec.]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOutFromPolicyBazaar -->
+        <test-method is-config="true" signature="closePolicyBazaar()[pri:0, instance:test.ValidatePolicyUserName@7b36aa0c]" started-at="2023-07-05T11:25:18 IST" name="closePolicyBazaar" finished-at="2023-07-05T11:25:20 IST" duration-ms="2729" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closePolicyBazaar -->
+      </class> <!-- test.ValidatePolicyUserName -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

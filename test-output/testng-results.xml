@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Waiting for1000millisec.]]>
+    </line>
+    <line>
+      <![CDATA[Launching browser]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for2000millisec.]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on HomePageSignInButton ]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for2000millisec.]]>
+    </line>
+    <line>
+      <![CDATA[Reading data from excel0and cell num0]]>
+    </line>
+    <line>
+      <![CDATA[Entering Mobile No.]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for2000millisec.]]>
+    </line>
+    <line>
+      <![CDATA[Signing in with PW]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for2000millisec.]]>
+    </line>
+    <line>
+      <![CDATA[Reading data from excel0and cell num1]]>
+    </line>
+    <line>
+      <![CDATA[Entering Password]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for2000millisec.]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on sign In PW]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for2000millisec.]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on My Account button]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for3000millisec.]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on my profile]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for2000millisec.]]>
+    </line>
+    <line>
+      <![CDATA[Switching on profile page]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for1000millisec.]]>
+    </line>
+    <line>
+      <![CDATA[Test validateUserName execution starting]]>
+    </line>
+    <line>
+      <![CDATA[Reading data from excel0and cell num2]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for1000millisec.]]>
+    </line>
+    <line>
+      <![CDATA[Getting actual username]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for4000millisec.]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot is stored in location :C:\Users\Narayan\eclipse-workspace\MavenProject\Screenshot\Neha Narayan Sawant PB_TC100.png]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for1000millisec.]]>
+    </line>
+    <line>
+      <![CDATA[This validateUserName method is successfull]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for2000millisec.]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on logout]]>
+    </line>
+    <line>
+      <![CDATA[Closing browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-07-04T20:52:18 IST" name="Suite" finished-at="2023-07-04T20:54:28 IST" duration-ms="129753">
+    <groups>
+    </groups>
+    <test started-at="2023-07-04T20:52:18 IST" name="Test" finished-at="2023-07-04T20:54:28 IST" duration-ms="129753">
+      <class name="test.ValidatePolicyUserName">
+        <test-method is-config="true" signature="launchPolicyBazaar()[pri:0, instance:test.ValidatePolicyUserName@19e4653c]" started-at="2023-07-04T20:52:19 IST" name="launchPolicyBazaar" finished-at="2023-07-04T20:53:09 IST" duration-ms="49996" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Waiting for1000millisec.]]>
+            </line>
+            <line>
+              <![CDATA[Launching browser]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for2000millisec.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchPolicyBazaar -->
+        <test-method is-config="true" signature="signInPolicyBazaar()[pri:0, instance:test.ValidatePolicyUserName@19e4653c]" started-at="2023-07-04T20:53:09 IST" name="signInPolicyBazaar" finished-at="2023-07-04T20:54:04 IST" duration-ms="55898" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on HomePageSignInButton ]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for2000millisec.]]>
+            </line>
+            <line>
+              <![CDATA[Reading data from excel0and cell num0]]>
+            </line>
+            <line>
+              <![CDATA[Entering Mobile No.]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for2000millisec.]]>
+            </line>
+            <line>
+              <![CDATA[Signing in with PW]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for2000millisec.]]>
+            </line>
+            <line>
+              <![CDATA[Reading data from excel0and cell num1]]>
+            </line>
+            <line>
+              <![CDATA[Entering Password]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for2000millisec.]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on sign In PW]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for2000millisec.]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on My Account button]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for3000millisec.]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on my profile]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for2000millisec.]]>
+            </line>
+            <line>
+              <![CDATA[Switching on profile page]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for1000millisec.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signInPolicyBazaar -->
+        <test-method signature="validateUserName()[pri:0, instance:test.ValidatePolicyUserName@19e4653c]" started-at="2023-07-04T20:54:04 IST" name="validateUserName" finished-at="2023-07-04T20:54:18 IST" duration-ms="13684" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test validateUserName execution starting]]>
+            </line>
+            <line>
+              <![CDATA[Reading data from excel0and cell num2]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for1000millisec.]]>
+            </line>
+            <line>
+              <![CDATA[Getting actual username]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for4000millisec.]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot is stored in location :C:\Users\Narayan\eclipse-workspace\MavenProject\Screenshot\Neha Narayan Sawant PB_TC100.png]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for1000millisec.]]>
+            </line>
+            <line>
+              <![CDATA[This validateUserName method is successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateUserName -->
+        <test-method is-config="true" signature="logOutFromPolicyBazaar()[pri:0, instance:test.ValidatePolicyUserName@19e4653c]" started-at="2023-07-04T20:54:18 IST" name="logOutFromPolicyBazaar" finished-at="2023-07-04T20:54:23 IST" duration-ms="4566" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Waiting for2000millisec.]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOutFromPolicyBazaar -->
+        <test-method is-config="true" signature="closePolicyBazaar()[pri:0, instance:test.ValidatePolicyUserName@19e4653c]" started-at="2023-07-04T20:54:23 IST" name="closePolicyBazaar" finished-at="2023-07-04T20:54:28 IST" duration-ms="5409" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closePolicyBazaar -->
+      </class> <!-- test.ValidatePolicyUserName -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
