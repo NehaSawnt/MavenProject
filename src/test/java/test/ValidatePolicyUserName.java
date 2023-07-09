@@ -39,25 +39,26 @@ public class ValidatePolicyUserName extends Base
 	public void signInPolicyBazaar() throws EncryptedDocumentException, IOException, InterruptedException
 	{
 		login.ClickOnHomePageSignInButton();
-		Utility.waitUse(2000);
-
-		login.enterMobileNo(Utility.readDataFromExcel(0, 0));
-		Utility.waitUse(2000);
-
-		login.ClickOnSignInWithPassword();
-		Utility.waitUse(2000);
-		
-		login.enterPassword(Utility.readDataFromExcel(0, 1));
-		Utility.waitUse(2000);
-
-		login.clickOnSignForPassword();
-		Utility.waitUse(2000);
-		
-		login.ClickOnMyAccountField();
 		Utility.waitUse(3000);
 
+		login.enterMobileNo(Utility.readDataFromExcel(0, 0));
+		Utility.waitUse(4000);
+
+		login.ClickOnSignInWithPassword();
+		Utility.waitUse(4000);
+		
+		login.enterPassword(Utility.readDataFromExcel(0, 1));
+		Utility.waitUse(4000);
+
+		login.clickOnSignForPassword();
+		Utility.waitUse(4000);
+
+		
+		login.ClickOnMyAccountField();
+		Utility.waitUse(4000);
+
 		login.clickOnMyProfile();
-		Utility.waitUse(2000);
+	    Utility.waitUse(4000);
 		//New tab is opened
 		Set<String> ids = driver.getWindowHandles();
 
@@ -80,11 +81,11 @@ public class ValidatePolicyUserName extends Base
   public void validateUserName() throws EncryptedDocumentException, IOException, InterruptedException
   {
 	  String expectedUserName = Utility.readDataFromExcel(0, 2);
-		Utility.waitUse(1000);
+		Utility.waitUse(3000);
 		String actualUserName = myProfile.getActualUserName();
-		Assert.assertEquals(expectedUserName,actualUserName,"Both are matching Tc is failed");
+		Assert.assertEquals(expectedUserName,actualUserName,"Both are not matching Tc is failed");
 		Utility.takeScreenshot(driver, actualUserName +" "+TCID);
-		Utility.waitUse(1000);
+		Utility.waitUse(3000);
 }
   @AfterMethod
   public void logOutFromPolicyBazaar() throws InterruptedException
